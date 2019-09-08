@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <com.maple.library.view.DotView
+        android:id="@+id/dotView1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:dotColor="@color/colorAccent"
+        app:dotStyle="FILL"
+        />
+
+    <com.maple.library.view.DotView
+        android:id="@+id/dotView2"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        app:dotColor="@color/colorPrimary"
+        app:dotStyle="STROKE"
+        />
+
+    <com.maple.library.view.DotView
+        android:id="@+id/dotView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button1"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button2"
+        />
+
+    <com.maple.library.view.ImageTextLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        app:imageIcon="@android:drawable/alert_light_frame"
+        app:textColor="@color/colorAccent"
+        app:textContent="测试"
+        app:textSize="20sp"
+        />
+</LinearLayout>
